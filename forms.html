@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Seu nome</label>
+        <input id="nome" type="text" placeholder="Seu nome" />
+        <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" placeholder="Seu e-mail" />
+        <br />
+        <input type="tel" placeholder="Seu telefone" />
+        <br />
+        <input type="file" />
+        <br />
+        <input type="color" />
+        <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos">Aceito os termos</label>
+        <p>
+            Qual sua marca favorita?
+        </p>
+        <input type="radio" name="marca-favorita" id="marca-nike" /> <label for="marca-nike">Nike</label>
+        <input type="radio" name="marca-favorita" id="marca-adidas" /> <label for="marca-adidas">Adidas</label>
+        <input type="radio" name="marca-favorita" id="marca-puma" /> <label for="marca-puma">Puma</label>
+        <br />
+        <label>Qual seu filme favorito?</label>
+        <select multiple>
+            <option>Interestelar</option>
+            <option>Cavaleiro das trevas</option>
+            <option>Megamente</option>
+            <option>Pecadores</option>
+        </select>
+        <br />
+        <textarea></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
